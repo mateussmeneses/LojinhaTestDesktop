@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object top" type="I" value="109"/>
+					<Prp name="datetime" type="D" value="44881.6044425"/>
+					<Prp name="object name" type="S" value="Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioAdicaoProduto.PainelFormularioDireito.edtNovoNomeProduto"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="134"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object right" type="I" value="899"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="478"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44881.4794428588"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioAdicaoProduto.PainelFormularioDireito.edtNovoNomeProduto&#xA;(Sys.Process(&quot;Lojinha&quot;).VCLObject(&quot;frmPrincipal&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;TabSheet3&quot;).VCLObject(&quot;Panel6&quot;).VCLObject(&quot;edtNovoNomeProduto&quot;))"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The text 'Mackbook' was entered in the text editor."/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object top" type="I" value="249"/>
+					<Prp name="datetime" type="D" value="44881.6044448958"/>
+					<Prp name="object name" type="S" value="Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioAdicaoProduto.PainelFormularioDireito.edtNovoCoresProduto"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="274"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object right" type="I" value="899"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="478"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44881.4794451273"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioAdicaoProduto.PainelFormularioDireito.edtNovoCoresProduto&#xA;(Sys.Process(&quot;Lojinha&quot;).VCLObject(&quot;frmPrincipal&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;TabSheet3&quot;).VCLObject(&quot;Panel6&quot;).VCLObject(&quot;edtNovoCoresProduto&quot;))"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The text 'preto, cinza' was entered in the text editor."/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object top" type="I" value="119"/>
+					<Prp name="datetime" type="D" value="44881.6044409375"/>
+					<Prp name="object name" type="S" value="Aliases.Lojinha.frmPrincipal.CorpoLojinha.ListaProdutos.Panel3.btnNovoProduto"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="134"/>
+					<Prp name="object bottom" type="I" value="150"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="703"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object right" type="I" value="770"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="637"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44881.4794414931"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (66, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Lojinha.frmPrincipal.CorpoLojinha.ListaProdutos.Panel3.btnNovoProduto&#xA;(Sys.Process(&quot;Lojinha&quot;).VCLObject(&quot;frmPrincipal&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;TabSheet2&quot;).VCLObject(&quot;Panel3&quot;).VCLObject(&quot;btnNovoProduto&quot;))"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object top" type="I" value="235"/>
+					<Prp name="datetime" type="D" value="44881.6044314468"/>
+					<Prp name="object name" type="S" value="Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioLogin.btnEntrar"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="250"/>
+					<Prp name="object bottom" type="I" value="266"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="193"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object right" type="I" value="240"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="146"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44881.4794321296"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (47, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioLogin.btnEntrar&#xA;(Sys.Process(&quot;Lojinha&quot;).VCLObject(&quot;frmPrincipal&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;TabSheet1&quot;).VCLObject(&quot;btnEntrar&quot;))"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object top" type="I" value="305"/>
+					<Prp name="datetime" type="D" value="44881.6044459838"/>
+					<Prp name="object name" type="S" value="Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioAdicaoProduto.PainelFormularioDireito.btnSalvarProduto"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="320"/>
+					<Prp name="object bottom" type="I" value="336"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="528"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object right" type="I" value="579"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="478"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44881.4794467245"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (50, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioAdicaoProduto.PainelFormularioDireito.btnSalvarProduto&#xA;(Sys.Process(&quot;Lojinha&quot;).VCLObject(&quot;frmPrincipal&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;TabSheet3&quot;).VCLObject(&quot;Panel6&quot;).VCLObject(&quot;btnSalvarProduto&quot;))"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object top" type="I" value="185"/>
+					<Prp name="datetime" type="D" value="44881.6044303356"/>
+					<Prp name="object name" type="S" value="Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioLogin.edtSenha"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="210"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object right" type="I" value="673"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="146"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44881.4794306829"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioLogin.edtSenha&#xA;(Sys.Process(&quot;Lojinha&quot;).VCLObject(&quot;frmPrincipal&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;TabSheet1&quot;).VCLObject(&quot;edtSenha&quot;))"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The text 'admin' was entered in the text editor."/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 2" type="S" value="{3A4E5C9E-6815-4E2E-A5FF-2E856043F3D5}"/>
+			<Prp name="unit 1" type="S" value="{FB896266-9E40-44EE-89F5-AF7F38A6B881}"/>
+			<Prp name="unit 3" type="S" value="{2CE15BFB-59D8-4292-9179-F167BD00B882}"/>
+			<Prp name="unit 0" type="S" value="{A2E063A1-5267-4659-8B85-D0B6C7E50CBA}"/>
+			<Prp name="unit 4" type="S" value="{10D0D06B-50B4-42D4-B9EE-FC13FBE56818}"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object top" type="I" value="179"/>
+					<Prp name="datetime" type="D" value="44881.6044437963"/>
+					<Prp name="object name" type="S" value="Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioAdicaoProduto.PainelFormularioDireito.edtNovoValorProduto"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="204"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object right" type="I" value="899"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="478"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44881.4794441782"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioAdicaoProduto.PainelFormularioDireito.edtNovoValorProduto&#xA;(Sys.Process(&quot;Lojinha&quot;).VCLObject(&quot;frmPrincipal&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;TabSheet3&quot;).VCLObject(&quot;Panel6&quot;).VCLObject(&quot;edtNovoValorProduto&quot;))"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The text '000' was entered in the text editor."/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="44881.6044533218"/>
+					<Prp name="object name" type="S" value="Aliases.Lojinha.frmPrincipal"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="586"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object right" type="I" value="927"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44881.4794542477"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Lojinha.frmPrincipal&#xA;(Sys.Process(&quot;Lojinha&quot;).VCLObject(&quot;frmPrincipal&quot;))"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The 'Lojinha' window was closed."/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object top" type="I" value="153"/>
+					<Prp name="datetime" type="D" value="44881.6044502662"/>
+					<Prp name="object name" type="S" value="Aliases.Lojinha.dlgLojinha.btnOK"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="169"/>
+					<Prp name="object bottom" type="I" value="186"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="417"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object right" type="I" value="467"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="367"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44881.479451007"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (50, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Lojinha.dlgLojinha.btnOK&#xA;(Sys.Process(&quot;Lojinha&quot;).Window(&quot;#32770&quot;, &quot;Lojinha&quot;, 1).Window(&quot;Button&quot;, &quot;OK&quot;, 1))"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 9">
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="date" type="D" value="44881.4794499074"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.Lojinha.dlgLojinha.Static.WndCaption&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;O valor do produto deve estar entre R$ 0,01 e...&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{F2EA4235-0622-4B4A-9737-48CAD322FCCA}.{5B438F28-A309-4B57-AE2C-1D0933999A21}'&gt;Aliases.Lojinha.dlgLojinha.Static&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;WndCaption&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;O valor do produto deve estar entre R$ 0,01 e R$ 7.000,00.&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;O valor do produto deve estar entre R$ 0,01 e R$ 7.000,00.&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: WndCaption equals (case-sensitive) &quot;O valor do produto deve estar entre R$ 0,01 e...&quot;."/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 0">
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44881.4794242708"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The process ID is 18596."/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Users\MSEC\Downloads\julio de lima\teste desktop\Lojinha.exe&quot; started."/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="140"/>
+					<Prp name="datetime" type="D" value="44881.6044288889"/>
+					<Prp name="object name" type="S" value="Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioLogin.edtUsuario"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="165"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object right" type="I" value="673"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="146"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44881.479429456"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioLogin.edtUsuario&#xA;(Sys.Process(&quot;Lojinha&quot;).VCLObject(&quot;frmPrincipal&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;TabSheet1&quot;).VCLObject(&quot;edtUsuario&quot;))"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The text 'admin' was entered in the text editor."/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

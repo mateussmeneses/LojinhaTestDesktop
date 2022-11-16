@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Telas">
+			<child name="LoginTela" key="{A2E063A1-5267-4659-8B85-D0B6C7E50CBA}" path="LoginTela.js" />
+			<child name="ListaProdutoTela" key="{FB896266-9E40-44EE-89F5-AF7F38A6B881}" path="ListaProdutoTela.js" />
+			<child name="NovoProdutoTela" key="{3A4E5C9E-6815-4E2E-A5FF-2E856043F3D5}" path="NovoProdutoTela.js" />
+			<child name="MensagemTela" key="{2CE15BFB-59D8-4292-9179-F167BD00B882}" path="MensagemTela.js" />
+			<child name="FormularioPrincipalTela" key="{10D0D06B-50B4-42D4-B9EE-FC13FBE56818}" path="FormularioPrincipalTela.js" />
+		</folder>
+		<folder name="Testes">
+			<child name="ProdutoTest" key="{90A332FD-57A5-4296-9D1E-64CA73F8B162}" path="ProdutoTest.js" />
+		</folder>
+	</children>
+</Root>

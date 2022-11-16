@@ -1,0 +1,56 @@
+﻿function abrirLojinha(){
+  // Abrindo o app
+   TestedApps.Lojinha.Run();
+}
+
+function login(usuario, senha) {
+  // Clicando na aba de login
+  Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioLogin.Click
+  
+  // Preenchendo o formulário de login
+  let formularioLogin = Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioLogin;
+    formularioLogin.edtUsuario.SetText(usuario);
+    formularioLogin.edtSenha.SetText(senha);
+    formularioLogin.btnEntrar.Click();
+}
+
+function abrirNovoProduto(){
+   Aliases.Lojinha.frmPrincipal.CorpoLojinha.ListaProdutos.Panel3.btnNovoProduto.Click();
+}
+
+function submenterNovoProdutoComErro(nome, valor, cores){
+  // Preenchendo os dados do produto
+  let formularioAdicaoProduto = Aliases.Lojinha.frmPrincipal.CorpoLojinha.FormularioAdicaoProduto.PainelFormularioDireito;
+  formularioAdicaoProduto.edtNovoNomeProduto.SetText(nome);
+  formularioAdicaoProduto.edtValorNomeProduto.SetText(valor);
+  formularioAdicaoProduto.edtNovoCoresProduto.SetText(cores);
+  
+  // Pressionar o botão de adição
+  formularioAdicaoProduto.btnSalvarProduto.Click();
+  
+}
+
+function validarMensagemErro(mensagem){
+  aqObject.CheckProperty(Aliases.Lojinha.dlgLojinha.Static, "WndCaption", cmpEqual, mensagem);
+
+}
+
+function fecharMensagemErro(){
+  Aliases.Lojinha.dlgLojinha.btnOK.Click();
+}
+
+function fecharLojinha(){
+  Aliases.Lojinha.frmPrincipal.Close();
+}
+
+function validarValoresInvalidoValorDoProduto()
+{
+ abrirLojinha();
+ login("admin", "admin");
+ abrirNovoProduto();
+ submenterNovoProdutoComErro("Mackbook", "000", "preto, cinza");
+ validarMensagemErro("O valor do produto deve estar entre R$ 0,01 e R$ 7.000,00.");
+ fecharMensagemErro();
+ fecharLojinha();
+  
+}
